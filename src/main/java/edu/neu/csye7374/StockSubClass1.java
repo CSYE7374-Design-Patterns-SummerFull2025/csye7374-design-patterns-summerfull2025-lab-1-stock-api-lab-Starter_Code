@@ -1,8 +1,8 @@
+package edu.neu.csye7374;
+
 import edu.neu.csye7374.Stock;
 import edu.neu.csye7374.Tradeable;
 
-public class StockSubClass1 {
-}
 public class StockSubClass1 extends Stock implements Tradeable.Tradeable0 {
     private double[] bids = new double[6];
     private int currentIndex = 0;
